@@ -8761,9 +8761,24 @@ body {
   height: 300px;
   margin-bottom: 30px;
 }
+
+.charity-header {
+  background: url('../img/pattern.jpg');
+
+  color: #fff;
+  height: 300px;
+  margin-top: 50px;
+}
+
 .main-header h1 {
   margin: 0;
   padding-top: 30px;
+}
+
+.charity-header h1 {
+  margin: 0;
+  padding-top: 50px;
+  font-size: 5rem;
 }
 
 .main-header .brand-logo {
@@ -8771,6 +8786,14 @@ body {
 }
 
 .main-header ul {
+  margin-right: 5%;
+}
+
+.charity-header .brand-logo {
+  margin-left: 5%;
+}
+
+.charity-header ul {
   margin-right: 5%;
 }
 

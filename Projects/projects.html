@@ -32,16 +32,16 @@
             class="button-collapse show-on-med"
             ><i class="material-icons">menu</i></a
           >
-          <a href="index.html" class="brand-logo ">Morteza Zoughi</a>
+          <a href="../index.html" class="brand-logo ">Morteza Zoughi</a>
 
           <ul class="right hide-on-med-and-down">
             <li><a href="../index.html">Portfolio</a></li>
-            <!-- <li><a href="#!">Charities</a></li> -->
+            <li><a href="./charity.html">Charities</a></li>
           </ul>
         </div>
         <ul class="side-nav" id="mobile-nav">
           <li><a href="../index.html">Portfolio</a></li>
-          <!-- <li><a href="#!">Charities</a></li> -->
+          <li><a href="./charity.html">Charities</a></li>
         </ul>
       </nav>
       <h1 class="center">Projects To Date</h1>
@@ -261,41 +261,39 @@
       // INIT Sidnav
       $(document).ready(function() {
         $('.button-collapse').sideNav();
-        // INIT Modal
-        $('.modal').modal();
         //Scrollfire
         const options = [
           {
             selector: '.row-1',
-            offset: 50,
+            offset: 25,
             callback: function(el) {
               Materialize.fadeInImage($(el));
             }
           },
           {
             selector: '.row-2',
-            offset: 300,
+            offset: 175,
             callback: function(el) {
               Materialize.fadeInImage($(el));
             }
           },
           {
             selector: '.row-3',
-            offset: 400,
+            offset: 250,
             callback: function(el) {
               Materialize.fadeInImage($(el));
             }
           },
           {
             selector: '.row-4',
-            offset: 500,
+            offset: 350,
             callback: function(el) {
               Materialize.fadeInImage($(el));
             }
           },
           {
             selector: '.row-5',
-            offset: 550,
+            offset: 450,
             callback: function(el) {
               Materialize.fadeInImage($(el));
             }

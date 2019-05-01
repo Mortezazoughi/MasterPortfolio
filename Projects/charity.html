@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Import materialize.css-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+      media="screen,projection"
+    />
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Charities</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+
+    <header class="charity-header ">
+      <nav class="transparent z-depth-0">
+        <div class="nav-wrapper">
+          <a
+            href="#"
+            data-activates="mobile-nav"
+            class="button-collapse show-on-med"
+            ><i class="material-icons">menu</i></a
+          >
+          <a href="../index.html" class="brand-logo ">Morteza Zoughi</a>
+
+          <ul class="right hide-on-med-and-down">
+            <li><a href="../index.html">Portfolio</a></li>
+            <li><a href="./projects.html" >Projects</a></li>
+          </ul>
+        </div>
+        <ul class="side-nav" id="mobile-nav">
+          <li><a href="../index.html">Portfolio</a></li>
+          <li><a href="./projects.html" >Projects</a></li>
+        </ul>
+      </nav>
+      <h1 class="center">Charities</h1>
+    </header>
+    <!-- SECTION: Main-->
+
+    <section class="section section-main">
+      <div class="container">
+        
+
+      <!-- PARALLAX -->
+      <div class="parallax-container">
+          <div class="parallax">
+            <img src="img/Hosea.jpg" />
+          </div>
+        </div>
+        <div class="section white-text">
+          <div class="row container">
+            <h2 class="header">Hosea Helps</h2>
+            <p>
+                <h4>Leading the Way in Human Services Since 1971</h4> 
+                Open every week providing rent and utility assistance, employment assistance, financial planning, emergency food, medical care and so much more. Our blend of adult and children's programs allows us to contribute to the financial stability of each household, while enhancing the development of the children growing up in those households.
+                <h5 style= "color:orangered;">A Great Place to Volunteer and Every Donation Matters</h5>
+                <a href="https://4hosea.org/" target="_blank"><h5 style="color:red;">Read More</h5></a>
+                
+            </p>
+          </div>
+        </div>
+        <div class="parallax-container">
+          <div class="parallax">
+            <img src="img/missionagape.jpg" />
+          </div>
+          
+        </div>
+        <div class="section white-text">
+            <div class="row container">
+              <h2 class="header">Mission Agpe</h2>
+              <p>
+                  <h4>Touch Someone's Life. Volunteer With Us!
+                    </h4> 
+                  Mission Agape is a 501c3 Christian Charity.  Our members come from many different faith, cultural, and economic backgrounds.  Though we are many backgrounds, we are one family.  
+ 
+Agape means "the highest form of love, charity".  This is our name; this is our mission.  To reach out to others in need. 
+ 
+It is our hope and prayer that we'll be able to make a positive impact in those around us, both in our local community and in our global community.
+                  <h5 style= "color:orangered;">"A person's world is only as big as their heart."
+                      - Tanya A. Moore - </h5>
+                      <a href="http://www.missionagape.org/index.php/en/" target="_blank"><h5 style="color:red;">Read More</h5></a>
+                  
+              </p>
+            </div>
+          </div>
+  
+        <!-- END HERE -->
+      </div>
+      
+     
+      </div>
+    </section>
+
+    <footer class="page-footer">
+      <div class="footer-copyright">
+        <div class="container">
+          © 2019 Morteza Zoughi
+        </div>
+      </div>
+    </footer>
+
+    <!--Import jQuery before materialize.js-->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+      // INIT Sidnav
+      $(document).ready(function() {
+        $('.button-collapse').sideNav();       
+
+        $('.parallax').parallax();
+      });
+    </script>
+  </body>
+</html>
